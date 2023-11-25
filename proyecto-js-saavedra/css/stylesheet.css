@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../multimedia/Big\ brother.jpg);
+    background-size: cover;
+}

@@ -24,11 +24,11 @@ while (nombre != "0"){
                 let libro = prompt(`Bueno, ${nombre}, espero que lo hayas pasado bien, ¡pues este es nuestro último juego! Como siempre, la pregunta es por sí o por no: ¿Has leido el libro de Goldwing?`).toLowerCase();
                 
                 if (libro == "si"){
-                    metisteLaPata
-                    break
+                    metisteLaPata();
+                    
                 }else
-                    metisteLaPata
-                    break
+                    metisteLaPata();
+                    
             }else
                 error();
     
