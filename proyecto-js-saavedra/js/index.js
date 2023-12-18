@@ -73,7 +73,6 @@ const agregarUsuario = (usuario) =>{
 }
 
 
-
 const mostrarUsuarios = () => {
     let nombresUsuarios = usuarios.map( usuario => `Nombre: ${usuario.nombre} - Faccion: ${usuario.faccion} - Email: ${usuario.email}` );
     
@@ -98,7 +97,7 @@ const menuFacciones = () =>{
                                 1 - Corsarios
                                 2 - Tol'onthor
                                 3 - Imperio Astarl
-                                4 - volver
+                                4 - Volver
                                 `)
                             );
         switch(opciones){
@@ -116,7 +115,7 @@ const menuFacciones = () =>{
                 let imperio = parseInt (
                     prompt (`Lo que hace ya casi mil años comenzó con la sublevación de un Señor de la Guerra, hoy es una intrincada red de gobierno que atravieza la mayor parte de la galaxia. El imperio pudo establecerse, en un principio, por medio de la implementación de la fuerza, para luego mantener su legitimidad gracias a un brillante y prolífero plan económico que se extiende hacia los confines de su territorio. Pero su época dorada pasó hace ya mucho tiempo y hoy en día se ve obligado a afrontar crisis políticas por doquier. Frente a este problema, los altos mandos, miembros del consejo de los Patricios, han decidido relocar el grueso de los recursos imperiales en la construcción del imperio perfecto, la esperanza final de un imperio decadente. Así fue como nació la Égida, un nave monuental, del tamaño de una pequeña luna. Resulta preciso que sea tan grande ya que su único destino es el de portar con un cañón de gravitón. Luego de su implementación en el sector Lambda, los augures imperiales vaticinan una nueva edad de oro.
                             1 - Égida
-                            2 - volver 
+                            2 - Volver 
                         `)
                     );
                 switch  (imperio){ 
@@ -141,22 +140,6 @@ const menuFacciones = () =>{
         }
     }
 }
-/* menuFacciones(); */
-// fin menu facciones //
-
-// Menu de Usuario //
-
-
-/* const mostrarUsuarios = () => {
-    let nombresUsuarios = usuarios.map( usuarios => `Nombre de usuario: ${usuarios.nombre} - Faccion: ${usuarios.faccion}` );
-    // verificar si hay elementos en el array 
-    if(nombresUsuarios.length > 0) {
-        alert(nombresUsuarios.join("\n"));
-    } else {
-        alert("No hay usuarios registrados");
-    }
-}; */
-
 
 
 const menuPrincipal = () => {
